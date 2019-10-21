@@ -1,31 +1,23 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Question | Vision Aid Digital Accessibility Training Midterm Exam</title>
-</head>
-
-<body>
-<header>
-<h1>Question | Vision Aid Digital Accessibility Training Midterm Exam</h1>
-</header>
-<main>
-<h2>Learner name: _____</h2>
-<br>
-<h2>Question</h2>
-<p>The question will be displayed  here.</p>
-
-<br>
-<form action="question.html" method="post">
-<label for="ans">Answer: *
-<input type="text" id="ans" name="ans">
-</label>
-<br>
-<input type="submit" value="Save Answer">
-<!-- On click of save answer button generate the text file with student name, question  and  answer and store it in the folder. --!>
-</form>
-<br>
-<a href="question.html" role="button">Next Question</a>
-</main>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Question | Vision Aid Digital Accessibility Training Midterm Exam</title>
+  </head>
+  <body>
+    <header>
+      <h1>Question | Vision Aid Digital Accessibility Training Midterm Exam</h1>
+    </header>
+    <main>
+      <h2>Learner name: <span></span></h2>
+      <br>
+      <h2>Question</h2>
+      <p>The question will be displayed  here.</p>
+      <div></div>
+      <br>
+      <button id="next">Next Question</button>
+      <button id="repeat">Repeat Question</button>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
 </html>
