@@ -16,8 +16,28 @@
       <div></div>
       <br>
       <form>
-        <label for="answer">Answer</label>
-        <input type="text" name="answer" id="answer">
+              <label for="scnumber">SC Number</label>
+        <input type="text" name="scnumber" id="scnumber">
+<br>
+        <label for="scname">SC name</label>
+        <input type="text" name="scname" id="scname">
+        <br>
+        <label for="level">Level</label>
+        <input type="text" name="level" id="level">
+<br>
+              <label for="principle">Principle</label>
+        <input list="prn" name="principle" id="principle">
+        <datalist id="prn">
+        <option value="Perceivable">
+        <option value="Operable">
+        <option value="Understandable">
+        <option value="Robust">
+        </datalist>
+        <br>
+        <label for="guideline">Guideline</label>
+        <input type="text" name="guideline" id="guideline">
+<br>
+        
         <button type="submit">Submit</button>
       </form>
       <br>
